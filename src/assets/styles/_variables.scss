@@ -1,0 +1,14 @@
+// src/assets/styles/_variables.scss
+
+// Import the colors
+@import 'colors';
+
+// Define general project variables (optional)
+$font-family: 'Roboto', sans-serif;
+$font-size-base: 16px;
+$font-size-large: 18px;
+$font-size-small: 14px;
+
+// Define other global variables
+$primary-color: $blue-500; // You can set your primary color here
+$secondary-color: $blue-300;

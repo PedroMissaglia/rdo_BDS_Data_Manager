@@ -1,0 +1,8 @@
+/* Import PO UI default theme first */
+
+
+/* Import your custom theme after the default theme */
+@import './assets/styles/_colors';
+@import './assets/styles/_typegraphy';
+@import './assets/styles/_variables';
+@import './assets/styles/styles.scss';

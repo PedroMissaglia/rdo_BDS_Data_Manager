@@ -1,0 +1,31 @@
+// src/assets/styles/styles.scss
+
+// Import the variables and color palette
+@import 'variables';
+@import 'colors';
+
+// Global styles (you can add more global styling here)
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  background-color: $blue-50;  // Lightest blue as the background
+  color: $blue-900;            // Dark blue for text
+}
+
+button.primary {
+  background-color: $primary-color;
+  color: white;
+
+  &:hover {
+    background-color: $blue-600;
+  }
+}
+
+button.secondary {
+  background-color: $secondary-color;
+  color: $blue-900;
+
+  &:hover {
+    background-color: $blue-400;
+  }
+}
